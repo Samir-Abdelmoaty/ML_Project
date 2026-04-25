@@ -1,0 +1,57 @@
+Required age has 10777 values equal zeros 
+legal notice have 6664 values as ""
+about text have 5570 values as "" and distinct so we can not work on it without embeddings
+
+
+isFree will be dropped 
+
+so we can make the developer count binary(when the developer cnt increase the price and the popularity increase) 
+
+
+Percentage of games with at least 1 demo: 8.81%
+Correlation between DemoCount and RecommendationCount: 0.0090
+Average RecommendationCount (0: No Demo, 1: Has Demo):
+HasDemo
+0    1169.184223
+1    1680.659000
+
+
+DLCCount categories:
+0    83.96%
+1     9.45%
+2     6.60%
+correlation between DLCCount and RecommendationCount: 0.0802
+Average RecommendationCount by DLC Category:
+DLCCountCat
+0     765.468170
+1    1635.979497
+2    6322.770360
+
+
+MovieCount == trailers 
+Correlation with RecommendationCount: 0.16359112398047412
+we can take the screenshots and the movie count as a feature(malha4 lazma awy)
+it will affect as this means the game has content and marketting budget
+
+
+PackageCount refers to the number of different purchase options or bundles
+
+
+priceInitial and priceFinal are almost equal except for 599 (5.27%)
+and in the 599 cases thre is a discount
+Correlation between HasDiscount and RecommendationCount: -0.0096
+Average RecommendationCount by Discount Status (0: No Discount, 1: Has Discount):
+HasDiscount
+0    1250.726343
+1     558.574290
+
+FreeVerAvail (11284 False, 73 True)
+SubscriptionAvail (11338 False, 19 True)
+
+PurchaseAvail so this means there its not currently avaliable for purchase
+
+Drop AchievementHighlightedCount as it only means the achivments on the game page on steam 
+but to view all that is the AchievementCount 
+
+
+publiser count increase the popularity as it can be published in different regions and languages 
