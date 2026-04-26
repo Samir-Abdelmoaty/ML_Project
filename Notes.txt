@@ -55,3 +55,9 @@ but to view all that is the AchievementCount
 
 
 publiser count increase the popularity as it can be published in different regions and languages 
+
+
+supported languages --> (english or not) (how many languages does the game support)
+support url --> bool
+website --> prefixes like http, https, www and if its .com 
+support email --> bool
